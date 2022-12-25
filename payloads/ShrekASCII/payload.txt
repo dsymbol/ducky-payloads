@@ -1,0 +1,67 @@
+REM Title: ShrekASCII
+REM Author: dsymbol
+REM Description: Opens Notepad and begins to type out an ASCII art of Shrek
+REM Target: Windows
+
+DELAY 2000
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 1000
+ENTER
+STRING                      _____
+ENTER
+STRING                   ,-'     `._
+ENTER
+STRING                 ,'           `.        ,-.
+ENTER
+STRING               ,'               \       ),.\
+ENTER
+STRING     ,.       /                  \     /(  \;
+ENTER
+STRING    /'\\     ,o.        ,ooooo.   \  ,'  `-')
+ENTER
+STRING    )) )`. d8P"Y8.    ,8P"""""Y8.  `'  .--"'
+ENTER
+STRING   (`-'   `Y'  `Y8    dP       `'     /
+ENTER
+STRING    `----.(   __ `    ,' ,---.       (
+ENTER
+STRING           ),--.`.   (  ;,---.        )
+ENTER
+STRING          / \O_,' )   \  \O_,'        |
+ENTER
+STRING         ;  `-- ,'       `---'        |
+ENTER
+STRING         |    -'         `.           |
+ENTER
+STRING        _;    ,            )          :
+ENTER
+STRING     _.'|     `.:._   ,.::" `..       |
+ENTER
+STRING  --'   |   .'     """         `      |`.
+ENTER
+STRING        |  :;      :   :     _.       |`.`.-'--.
+ENTER
+STRING        |  ' .     :   :__.,'|/       |  \
+ENTER
+STRING        `     \--.__.-'|_|_|-/        /   )
+ENTER
+STRING         \     \_   `--^"__,'        ,    |
+ENTER
+STRING   -hrr- ;  `    `--^---'          ,'     |
+ENTER
+STRING          \  `                    /      /
+ENTER
+STRING           \   `    _ _          /
+ENTER
+STRING            \           `       /
+ENTER
+STRING             \           '    ,'
+ENTER
+STRING              `.       ,   _,'
+ENTER
+STRING                `-.___.---'
+ENTER
+STRING

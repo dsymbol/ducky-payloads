@@ -1,0 +1,44 @@
+REM Title: SimpsonsASCII
+REM Author: dsymbol
+REM Description: Opens Notepad and begins to type out an ASCII art of The Simpsons
+REM Target: Windows
+
+DELAY 2000
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 1000
+STRING                           (####)
+ENTER
+STRING                         (#######)
+ENTER
+STRING                       (#########)
+ENTER
+STRING                      (#########)
+ENTER
+STRING                     (#########)
+ENTER
+STRING                    (#########)
+ENTER
+STRING    __&__          (#########)
+ENTER
+STRING   /     \        (#########)   |\/\/\/|     /\ /\  /\               /\
+ENTER
+STRING  |       |      (#########)    |      |     | V  \/  \---.    .----/  \----.
+ENTER
+STRING  |  (o)(o)       (o)(o)(##)    |      |      \_        /       \          /
+ENTER
+STRING  C   .---_)    ,_C     (##)    | (o)(o)       (o)(o)  <__.   .--\ (o)(o) /__.
+ENTER
+STRING   | |.___|    /___,   (##)     C      _)     _C         /     \     ()     /
+ENTER
+STRING   |  \__/       \     (#)       | ,___|     /____,   )  \      >   (C_)   <
+ENTER
+STRING   /_____\        |    |         |   /         \     /----'    /___\____/___\
+ENTER
+STRING  /_____/ \       OOOOOO        /____\          ooooo             /|    |\
+ENTER
+STRING /         \     /      \      /      \        /     \           /        \
+ENTER 
+STRING                            The Whole Damn Family

