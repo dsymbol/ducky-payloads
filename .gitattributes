@@ -1,3 +1,2 @@
 *.sh text=auto eol=lf
 *.txt text=auto eol=lf
-*.sh mode=executable
